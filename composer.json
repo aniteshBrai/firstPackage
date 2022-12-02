@@ -1,0 +1,21 @@
+{
+    "name": "anitesh/first",
+    "description": "First - Create a simple package",
+    "type": "project",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Anitesh\\First\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "anitesh",
+            "email": "anitesh.brainium@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "guzzlehttp/guzzle": "^7.0.1"
+    }
+}
